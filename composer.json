@@ -1,0 +1,23 @@
+{
+    "name": "hakre/tunesmith",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "Tunesmith - noun; informal - A composer of popular music or songs.",
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Hakre\\Tunesmith\\": "src/Hakre/Tunesmith/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hakre",
+            "email": "hanskrentel@yahoo.de"
+        }
+    ],
+    "require": {
+        "php": "^7.4.2 || ^8.0.0 || ^8.1.0 || ^8.2.0",
+        "ext-json": "*"
+    },
+    "bin": ["tune.php"]
+}
